@@ -1,0 +1,58 @@
+// colors variables
+primary-white = #ffffff
+white-gray = #f2f1f6
+light-gray = #adb2b8
+mid-gray = #555e65
+primary-green = #2cc084
+// font sizes variables
+primary-font-size = 14px
+
+body
+	background-color #fafafa
+	margin 0px
+	font-family sans-serif
+	font-weight 300
+	p
+		font-size primary-font-size
+	.tile-main-container
+		display flex
+		flex-wrap wrap
+		width 448px
+		margin auto
+		padding-top 25px
+		padding-bottom 15px
+		height auto
+		background-color #efeff7
+		.user-img-container
+			display flex
+			justify-content center
+			width 90px
+			height 64px
+	.content
+		width 299px
+		background-color primary-white
+		padding 0px 15px 15px 15px
+		.tile-title-container
+			display flex
+			align-items center
+			height 46px
+			h4
+				margin 0px
+			.score
+				color primary-green
+				padding-left 5px
+			.time-since
+				flex-grow 1
+				text-align right
+				color light-gray
+	.tile-header-container
+		p 
+			padding-bottom 20px
+			border-bottom 1px solid white-gray
+			margin 0px
+	.tile-content-container
+		h3
+			font-weight 300
+			color mid-gray
+		span
+			color light-gray
