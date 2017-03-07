@@ -19,7 +19,7 @@ class Tile extends React.Component {
               <h4>Christopher Reece </h4><span className='score'>{this.state.score}</span> <span className='time-since'>{this.state.timeSince}</span>
             </div>
             <div className='tile-header-container'>
-              <p>You made me swallow my gum! That's going to be in my digestive tract for seven years!</p>
+              <p>You made me swallow my gum! That\'s going to be in my digestive tract for seven years!</p>
             </div>
             <div className='tile-content-container'>
               <h3>The Ultimate Pilgrim Quiz</h3>
