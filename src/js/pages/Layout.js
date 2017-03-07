@@ -3,11 +3,11 @@ import Tile from '../components/Tile';
 
 class Layout extends React.Component {
 
-	render() {
-		return (
-			<Tile />
-		);
-	} 
+  render() {
+    return (
+      <Tile />
+    );
+  } 
 }
 
 export default Layout;
